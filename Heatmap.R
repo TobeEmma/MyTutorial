@@ -13,7 +13,7 @@ library(RColorBrewer)
 library(vegan)
 
 #Read in data
-Git_link <- "https://raw.githubusercontent.com/TobeEmma/Bio5202/main/Microbiome_data.csv?token=GHSAT0AAAAAACPATDITRECJFYA66RYWH4GMZQZVLJQ"
+Git_link <- "https://raw.githubusercontent.com/TobeEmma/MyTutorial/main/Microbiome_data.csv"
 Bacteria <- read.csv(Git_link)
 
 #Preview the first four rows and three columns
